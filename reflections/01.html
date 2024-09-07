@@ -1,0 +1,69 @@
+<!-- Header file -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reflection 01: Every Kid Needs a Champion | The Learning Lens</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Reymundo Esteves II | BTVTED-CP-1A" />
+	<meta name="Content-Language" content="en" />
+	<link rel="stylesheet" href="../styles/mainstyles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <script src="../js/loadnav2.js"></script> -->
+	<script>
+	function copyContent() {
+      var divText = document.getElementById("col1_info").textContent;
+    
+    
+      navigator.clipboard.writeText(divText).then(function() {
+          alert("The entire reflection has been copied.");
+      }).catch(function(err) {
+        console.error("Failed to copy text.", err);
+      });
+    }
+	</script>
+  </head>
+  
+  <body onload="loadNav()">
+    <div id="headerbar">
+	  <header class="headerbar">
+	    <img src="../images/logo/logo.png" style="margin-left:30px;width:150px;height:60px;float:left" />
+	    <span style="float:left;padding:20px 0;"><b>&nbsp;&nbsp;&nbsp;The Learning Lens</b></span>
+	    <ul class="links">
+	      <li><a href="../reflections.html"><span class="fa fa-book"></span>&nbsp;Reflections/Journal Entries</a></li>
+	      <li><a href="../index.html"><span class="fa fa-home"></span>&nbsp;Home</a></li>
+	    </ul>
+	  </header>
+	</div>
+	
+	<div id="introductory">
+	  <h3 style="text-align:center">Reflection 01:</h5>
+	  <h1 style="text-align:center;font-size:45pt;margin-top:-20px;">TED Talk:<i>"Every Kid Needs a Champion"</i></h1>
+	  <!-- <p style="font-size: 18pt;">This site, named <b>The Learning Lens</b>, will serve as an e-Portfolio in order to fulfill the requirement in PROFED2 (also known under the name <i>The Teaching Profession</i>). This e-Portfolio is made by <b>Reymundo P. Esteves II</b>, from <b><u>BTVTED-CP-1A.</u></b></p> -->
+	</div>
+	<div id="main" style="margin-top: -250px">
+	  <!-- "About me" section -->
+	  <div id="col1_info">
+	    <figure>
+	      <img src="https://wpvip.ted.com/wp-content/uploads/sites/2/2013/06/rita-pierson-feature.jpg" alt="A feature quote from the speech" style="display:block;margin-left:auto;margin-right:auto"/>
+		  <!--<figcaption style="text-align:center">Image source: https://wpvip.ted.com/wp-content/uploads/sites/2/2013/06/rita-pierson-feature.jpg</figcaption>-->
+		</figure>
+	    <p>The <b>TED Talk</b> of the late <b>Rita Pierson</b>, entitled <i>"Every Kid Needs a Champion,"</i> has made a lot of impact to me. As I listen to her speech, it hit me right away that teaching in reality is not giving knowledge but about the connection we establish with our students. In fact, her speech really taught me that it is the most influential teachers who take that extra moment to envision each child beyond being a learner, but a human being with struggles and strengths, with potential yet to be realized.</p>
+		<p>What really struck me was her emphasis on building relationships. I have learned that students learn when they value, and are heard. It brought a lot of reflection from me about my own experience. My mind instantly went to all those teachers who changed my life-not with lesson plans but because they took the effort to get to know me as a person. It has just evoked thoughts of how much those relationships indeed developed my confidence and motivation.</p>
+		<p>That also reminded me of her address with regard to the concept of "champions" in our lives: people who believe in us when we don't. Pierson insisted that it is so important to have teachers who do not limit their role to teaching lessons but, rather, make efforts to reach out and connect with their students on a personal level, away from the strict ideas about education. I remember just thinking to myself, "The best teachers that ever were good to teach their subject matters made me feel capable and encouraged me to believe in myself.</p>
+
+	  </div>
+	  <!-- "Reflection" section -->
+	  <div id="col2_refl">
+	    <div class="gradheader bluehead">
+	      <h3 style="color: white;">Details</h3>
+		</div><br>
+		<span><b>Date Added:</b> Saturday, September 7, 2024</span><br>
+		<span><b>Time Added:</b> 11:18 PM</span><br><br>
+		<button class="actions" onclick="copyContent()"><span class="fa fa-copy" title="Copy text to the clipboard directly without the need for highlighting manually. [for instructor/professor's checking purposes only]"></span>&nbsp;&nbsp;Copy text</button>
+		<p style="text-align:center;margin-top:-16px;font-weight:bold;color:red;font-size:12pt"><u>(for instructor/professor's checking purposes only.)</u></p>
+		<!--<button class="actions" onclick="history.back()" title="Go back to the previous page"><span class="fa fa-backward"></span>&nbsp;&nbsp;Back to previous page</button>-->
+	  </div><br><br>
+	</div>
+	<footer style='position: fixed;height: 20px;background: #6067ba;color: white;bottom: 0;left: 0;right: 0px;width: 100%;margin-bottom: 0px;clear: both;text-align: center;padding: 15px;'>(c) 2024 Reymundo Esteves II</footer>
+  </body>
+</html>
